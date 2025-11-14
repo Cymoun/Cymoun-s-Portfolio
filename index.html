@@ -29,7 +29,7 @@
       color: black; 
     }
     a .card:hover {
-      transform: scale(1.02);
+      transform: scale(1.13);
       box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     }
 
@@ -95,6 +95,7 @@
     .youtube-red { color: #FF0000; }
     .spotify-green { color: #1DB954; }
     .twitter-black { color: #000000; }
+    .discord-purple { color: #5865F2; }
   </style>
 </head>
 
@@ -140,35 +141,33 @@
   </section>
 
   <section class="container py-5" id="certificates">
-  <h2 class="mb-3 text-center text-white">Coursera Certificates</h2>
-  <div class="row g-3">
-    <div class="col-md-4 col-sm-6">
-      <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52.jpeg" alt="Certificate 4" class="certificate-img">
-      <p class="certificate-title">Python Basics: Selection & Iteration</p>
+    <h2 class="mb-3 text-center text-white">Coursera Certificates</h2>
+    <div class="row g-3">
+      <div class="col-md-4 col-sm-6">
+        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52.jpeg" alt="Certificate 4" class="certificate-img">
+        <p class="certificate-title">Python Basics: Selection & Iteration</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~LPI38LF345IW/CERTIFICATE_LANDING_PAGE~LPI38LF345IW.jpeg" alt="Certificate 2" class="certificate-img">
+        <p class="certificate-title">Python Basic Structures: Lists, Strings, and Files</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TCJBGXQPDDG7/CERTIFICATE_LANDING_PAGE~TCJBGXQPDDG7.jpeg" alt="Certificate 3" class="certificate-img">
+        <p class="certificate-title">AI Ethics, Responsible Use, and Creativity</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~D2W6GRTE21QC/CERTIFICATE_LANDING_PAGE~D2W6GRTE21QC.jpeg" alt="Certificate 1" class="certificate-img">
+        <p class="certificate-title">Build a Webpage with HTML and CSS</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6YHI4GTASAX8/CERTIFICATE_LANDING_PAGE~6YHI4GTASAX8.jpeg" alt="Certificate 5" class="certificate-img">
+        <p class="certificate-title">Python Object Basics: Functions, Recursion, and Objects</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52.jpeg" alt="Certificate 6" class="certificate-img">
+        <p class="certificate-title">Object-Oriented Python: Inheritance and Encapsulation</p>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~LPI38LF345IW/CERTIFICATE_LANDING_PAGE~LPI38LF345IW.jpeg" alt="Certificate 2" class="certificate-img">
-      <p class="certificate-title">Python Basic Structures: Lists, Strings, and Files</p>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TCJBGXQPDDG7/CERTIFICATE_LANDING_PAGE~TCJBGXQPDDG7.jpeg" alt="Certificate 3" class="certificate-img">
-      <p class="certificate-title">AI Ethics, Responsible Use, and Creativity</p>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~D2W6GRTE21QC/CERTIFICATE_LANDING_PAGE~D2W6GRTE21QC.jpeg" alt="Certificate 1" class="certificate-img">
-      <p class="certificate-title">Build a Webpage with HTML and CSS</p>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6YHI4GTASAX8/CERTIFICATE_LANDING_PAGE~6YHI4GTASAX8.jpeg" alt="Certificate 5" class="certificate-img">
-      <p class="certificate-title">Python Object Basics: Functions, Recursion, and Objects</p>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52/CERTIFICATE_LANDING_PAGE~6JRG6BOAKU52.jpeg" alt="Certificate 6" class="certificate-img">
-      <p class="certificate-title">Object-Oriented Python: Inheritance and Encapsulation</p>
-    </div>
-  </div>
-</section>
-
+  </section>
 
   <section class="container py-5" id="links">
     <h2 class="mb-4 text-center text-white">Social Media Links</h2>
@@ -229,11 +228,19 @@
         </a>
       </div>
 
+      <!-- New Discord Button (Not Clickable) -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100 text-center" style="cursor: default;">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-discord social-icon discord-purple"></i>Discord</h5>
+            <p class="card-text">Username: Cymounplayz</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
